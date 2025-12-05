@@ -94,19 +94,24 @@ header {
 
 nav {
   width: 80%;
-      background-image: url("../img/fondo.png");
-    background-size: cover;       /* La imagen cubre toda la pantalla */
-    background-repeat: no-repeat; /* No se repite */
-    background-position: center;  /* Centrada */
+  background-image: url("../img/fondo.png");
+  background-size: cover;       /* La imagen cubre toda la pantalla */
+  background-repeat: no-repeat; /* No se repite */
+  background-position: center;  /* Centrada */
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10%;
+  padding: 15px 10%;
+  
+}
+
+#mynerve-regular{
+  font-size: 1rem;
 }
 
 #nav-botones{
-  padding-left: 95px;
+  padding-left: 190px;
   display: flex;
   justify-content: space-between;
 
@@ -223,8 +228,8 @@ nav {
 
 .delete-button {
   background-color: red;
-  color: white;
-  border: none;
+  color: rgb(0, 0, 0);
+  border: 2px solid;
   padding: 10px 10px;
   cursor: pointer;
   border-radius: 5px;

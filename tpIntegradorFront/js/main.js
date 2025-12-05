@@ -159,7 +159,7 @@ let y = 20;
 doc.setFontSize(18);
 
 // Escribimos el texto "ticket compra" en la posicion (x=10 y=10) del pdf
-doc.text("Llama-ticket de compra:", 20, y);
+doc.text("Su ticket de compra:", 20, y);
 
 y+= 20
 
